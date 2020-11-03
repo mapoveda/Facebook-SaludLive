@@ -1,0 +1,115 @@
+body{
+    background-image: url(../img/franja-azul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: -170px;
+    background-color: #efefef;
+}
+
+.formulario{
+    background: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    left: 750px;
+    top: -600px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top: 4px;
+    color:  rgb(207, 207, 207);
+}
+.form-group#correo-group::before{
+    content: "\f007";
+}
+.form-group#contraseña-group::before{
+    content: "\f023";
+} 
+.form-control{
+    background: #efefef;
+    border-style: none;
+    border-radius: 6px;
+    padding-left: 54px;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    background: none;
+    box-shadow: none;
+    outline: none;
+
+}
+.form-control::placeholder{
+    color: rgb(207, 207, 207);
+}
+.iniciar{
+    background: #3b5998;
+    color: #efefef;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 700 !important;
+    border-radius: 10px;
+    border: 2px solid #3b5998;
+    
+    transition: 0.5s ease-in;
+  
+}
+
+.boton2{
+    background-color: #0cbf35;
+    font-size: 20px;
+    padding: 9px;
+    font-weight: 700 !important;
+    border-radius: 10px;
+    color: #ffff;
+    border: 2px solid #0cbf35 ;
+    transition: 0.5s ease-in;
+    
+}
+
+.parteazul .row .face img{
+    padding: 30px 55px;
+}
+
+.parteazul .row .personas img{
+    padding: 0 220px;
+    padding-top: 20px;
+}
+
+.parteazul .row .reciente h1{
+    color: white;
+    padding: 29px 203px;
+    padding-top: 55px;
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+}
+.parteazul .row .reciente h1::before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: #ffffff;
+    left: 25%;
+    bottom: 12%;
+}
+
+
+.parteazul .row .reciente p{
+    color: rgb(58, 58, 58);
+    padding: 50px 300px;
+    padding-top: 0;
+    position: relative;
+}
+
+.parteazul .row .foto img{
+    width: 40%;
+    padding: 6px 40px;
+    margin-left: 170px;
+    margin-top: -55px;
+}
+

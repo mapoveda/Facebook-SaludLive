@@ -1,0 +1,79 @@
+body{
+    background: url(../img/franja-azul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: -170px;
+    background-color: #efefef;
+}
+
+.parteazul .row .face img{
+    padding: 30px 55px;
+}
+
+.formulario{
+    background: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    left: 360px;
+    top: -100px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top: 4px;
+    color:  rgb(207, 207, 207);
+}
+.form-control{
+    background: #efefef;
+    border-style: none;
+    border-radius: 6px;
+    padding-left: 54px;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    background: none;
+    box-shadow: none;
+    outline: none;
+
+}
+.form-control::placeholder{
+    color: rgb(207, 207, 207);
+}
+  
+
+.crear{
+    background: #0cbf35;
+    font-size: 20px;
+    padding: 9px;
+    font-weight: 700 !important;
+    border-radius: 10px;
+    color: #ffff;
+    border: 2px solid #0cbf35 ;
+    transition: 0.5s ease-in;
+}
+body .form-group  img{
+    width:  70%;
+}   
+
+body .row .col{
+    padding-top: 20px;
+}
+
+body .form-group input{
+    padding-left: 10px;
+}
+
+body .genero input{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 400px){
+    .container-todo{
+        width: 100%;
+    }
+}
